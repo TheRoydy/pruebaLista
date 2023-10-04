@@ -1,0 +1,85 @@
+@font-face{
+    font-family: "28_days_later";
+    src: url(../font/28_days_later.ttf);
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+body{
+    background-color: pink;
+    background-image: url("../img/xd.jpg.png");
+   
+}
+
+.colorNuevo{
+    color:black;
+}
+
+.colorCorreccion{
+    color: rgb(0, 0, 0);
+}
+
+thead + .colorNuevo{
+    text-shadow: 5px 5px 5px black;
+}
+
+.amarillo{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px 20px 30px;
+    padding: 10px;
+    border:2px black solid;
+    border-top-width: ridge;
+    border-radius: 20%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: hsl(360, 100, 50);
+}
+
+.rojo{
+    height: 1500px;
+    background-color: red;
+    
+}
+
+
+.verde{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(56, 175, 56);
+    position: sticky;
+    top: 10%;
+}
+
+@media (max-width: 1000px) {
+    .amarillo {
+        transition: width 2s ease;
+        background-color: blueviolet;
+        border-color: aliceblue;
+        transition: all 2s ease;
+    }
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+@media (max-width: 600px){
+    .amarillo{
+        background-color: aquamarine;
+    }
+}
+
+ 
